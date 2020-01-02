@@ -23,4 +23,4 @@ Thanks and credits to Lukasz Podkalicki, Michele "O-Zone", and others for the Wi
 
 ## Wifi signal example during 36C3
 
-![](img/36c3-wifi-capture1.jpg|width=400px)
+<img src="img/36c3-wifi-capture1.jpg">
