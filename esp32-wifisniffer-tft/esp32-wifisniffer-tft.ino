@@ -20,7 +20,7 @@
 #include "nvs_flash.h"
 #include "driver/gpio.h"
 #include "SPI.h"
-#include "tft.h"
+#include "src/tft.h"
 
 #define WIFI_CHANNEL_SWITCH_INTERVAL  (500)
 // WiFi 802.11 2.4 GHz ISM band: 14 channels, 1-13 used
