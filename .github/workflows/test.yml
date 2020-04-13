@@ -49,7 +49,7 @@ jobs:
       # dynamically by the build matrix.
       - name: Install platform
         run: |
-          arduino-cli core update-index
+          arduino-cli core --additional-urls https://dl.espressif.com/dl/package_esp32_index.json update-index
           arduino-cli core install ${{ matrix.arduino-platform }}
 
       # Now we need to add the external library dependencies here
