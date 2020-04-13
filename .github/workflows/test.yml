@@ -50,7 +50,7 @@ jobs:
       - name: Install platform
         run: |
           arduino-cli core --additional-urls https://dl.espressif.com/dl/package_esp32_index.json update-index
-          arduino-cli core install ${{ matrix.arduino-platform }}
+          arduino-cli core --additional-urls https://dl.espressif.com/dl/package_esp32_index.json install ${{ matrix.arduino-platform }}
 
       # Now we need to add the external library dependencies here
       - name:  Add libraries
