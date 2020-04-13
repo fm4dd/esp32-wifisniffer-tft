@@ -1,5 +1,7 @@
 # ESP32 Wifi Sniffer with TFT Display
 
+![test](https://github.com/fm4dd/esp32-wifisniffer-tft/workflows/test/badge.svg)
+
 <img src="img/36c3-wifi-capture2.jpg">
 
 During 36C3 I spotted a sign for the "MysteryHack WiFi Fox Hunt" and a URL for https://fox.mysteryhack.space/. In true spirit of the event, I decided to code a Wifi AP identification screen with signal power on the ESP32 DevKitC. The goal
